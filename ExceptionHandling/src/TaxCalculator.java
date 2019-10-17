@@ -39,14 +39,9 @@ public class TaxCalculator {
 
 		try {
 			tc.calculateTax(tc.empName, tc.empSal, tc.isIndian);
-		} catch (CountryNotValidException e) {
-			System.out.println(e);
-		} catch (EmployeeNameInvalidException e) {
-			System.out.println(e);
-		} catch (TaxNotEligibleException e) {
+		} catch (CountryNotValidException | EmployeeNameInvalidException | TaxNotEligibleException e) {
 			System.out.println(e);
 		}
-
 	}
 
 }
