@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Online Book Shopping</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ 
+</head>
+<style>
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=number], input[type=reset], input[type=datetime-local], input[type=textarea],input[type=label]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #160b0b;
+  text-align: center;
+}
+</style>
+</style>
+<body>
+
+<div class="container">
+    <div class="row"> 
+        <div class="col-md-2">
+        </div>
+  <div  class="jumbotron" style="text-align: center;">
+    <h1>Online Book Shopping</h1>      
+  </div>
+</div>
+<div class="row"> 
+       <ul class="nav nav-tabs" role="tablist">
+        <li class="col-sm-2"><a href="OnlineBookShopping.html">Home</a></li>
+        <li class="col-sm-2"> <a href="Login.html">Login</a></li>
+        <li class="col-sm-3"><a href="Registration.html">Registration</a></li>
+        <li class="col-sm-3"><a href="Catalogue.html">Catalogue</a></li>  
+        <li class="col-sm-2"><a href="Cart.html">Cart</a></li>      
+      </ul>  
+</div>
+</div>   <!--end of container-->
+
+
+    <div>
+    <ul>
+        <ls><a href="#"/>ESE</ls><br/>
+        <ls><a href="#"/>EEE</ls><br/>
+        <ls><a href="#"/>ECE</ls><br/>
+        <ls><a href="#"/>IT</ls><br/>
+    
+    </ul>
+</div>
+ 
+<form action="/action_page.php">
+    <div class="container">
+      <h1>Register</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+  
+      <label for="name"><b>Name/b></label>
+        <input type="text" placeholder="Enter Name" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="phone"><b>Phone Number</b></label>
+      <input type="number" placeholder="Enter Phone Number" name="phone" required>
+      <br/>
+
+      <label for="dateOfbirth"><b>Date of Birth</b></label>
+      <input type="datetime-local" name="bdaytime">
+      
+      
+      <label for="gender"><b>Gender</b></label>
+      <input type="radio">Male <input type="radio">Female
+      <br/>
+      <label for="lang"><b>Languages knows</b></label>
+      <input type="checkbox" name="lang" value="lang">English
+      <input type="checkbox" name="lang" value="lang">Telugu
+      <input type="checkbox" name="lang" value="lang">Hindi
+      <input type="checkbox" name="lang" value="lang">Tamil 
+    <br/>
+
+    <label for="add"><b>Address</b></label>
+    <textarea rows="4" cols="50"></textarea>
+    <br/>
+
+   <button type="submit" calss="registerbtn" value="Submit">Submit</button> 
+<button type="reset" value="Reset">Reset</button>
+
+
+</div>
+</form>
+</body>
+</html>
