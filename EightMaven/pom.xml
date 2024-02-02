@@ -9,7 +9,7 @@
   <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
     <groupId>org.springframework</groupId>
     <artifactId>spring-context</artifactId>
-    <version>5.1.5.RELEASE</version>
+    <version>5.2.22.RELEASE</version>
   </dependency>
   <!-- https://mvnrepository.com/artifact/org.springframework/spring -->
 <dependency>
